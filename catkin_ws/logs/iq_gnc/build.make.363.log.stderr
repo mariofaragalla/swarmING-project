@@ -1,0 +1,18 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void go_to_goalPos(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:521:9: error: ‘Duration’ was not declared in this scope; did you mean ‘ros::Duration’?
+  521 |         Duration(10).sleep();
+      |         ^~~~~~~~
+      |         ros::Duration
+In file included from /opt/ros/noetic/include/ros/time.h:57,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:1,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/duration.h:107:20: note: ‘ros::Duration’ declared here
+  107 | class ROSTIME_DECL Duration : public DurationBase<Duration>
+      |                    ^~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

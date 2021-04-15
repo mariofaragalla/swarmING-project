@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target follower_sub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/mario/catkin_ws/devel/.private/iq_gnc/lib/iq_gnc/follower_sub[0m
+[100%] Built target follower_sub

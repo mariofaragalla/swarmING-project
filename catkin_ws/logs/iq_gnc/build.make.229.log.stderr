@@ -1,0 +1,183 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:175:42: error: ‘GlobalPositionTarget’ in namespace ‘mavros_msgs’ does not name a type; did you mean ‘PositionTarget’?
+  175 | void drone1_gpsSub_cb(const mavros_msgs::GlobalPositionTarget){
+      |                                          ^~~~~~~~~~~~~~~~~~~~
+      |                                          PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(int)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:176:15: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  176 |  mavros_msgs::GlobalPositionTarget drone1_gps_g = *msg;
+      |               ^~~~~~~~~~~~~~~~~~~~
+      |               PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:181:23: error: ‘drone1_gps_g’ was not declared in this scope; did you mean ‘drone1_pose_g’?
+  181 |  curr_gps_pub.publish(drone1_gps_g);
+      |                       ^~~~~~~~~~~~
+      |                       drone1_pose_g
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:7: error: ‘drone1_gps_sub’ was not declared in this scope; did you mean ‘drone1_pos_cb’?
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |       ^~~~~~~~~~~~~~
+      |       drone1_pos_cb
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:56: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~
+      |                                                        PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:56: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~
+      |                                                        PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: no matching function for call to ‘ros::NodeHandle::subscribe<<expression error> >(const char*, int, void (&)(int))’
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:402:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)’
+  402 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:402:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:413:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)’
+  413 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:413:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:465:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)’
+  465 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:465:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:475:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)’
+  475 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:475:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:529:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)’
+  529 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:529:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:540:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)’
+  540 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:540:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:594:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)’
+  594 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:594:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:605:14: note: candidate: ‘template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)’
+  605 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:605:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:656:14: note: candidate: ‘template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)’
+  656 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:656:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:704:14: note: candidate: ‘template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)’
+  704 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:704:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:750:14: note: candidate: ‘template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)’
+  750 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:750:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:799:14: note: candidate: ‘template<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)’
+  799 |   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:799:14: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:158: error: template argument 1 is invalid
+  240 |       drone1_gps_sub = gnc_node.subscribe<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10, drone1_gpsSub_cb);
+      |                                                                                                                                                              ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:241:54: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  241 |       curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~
+      |                                                      PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:241:54: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  241 |       curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~
+      |                                                      PositionTarget
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:241:138: error: no matching function for call to ‘ros::NodeHandle::advertise<<expression error> >(const char*, int)’
+  241 |       curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                                                                                                          ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)’
+  249 |     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:241:138: error: template argument 1 is invalid
+  241 |       curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                                                                                                          ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)’
+  315 |   Publisher advertise(const std::string& topic, uint32_t queue_size,
+      |             ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:241:138: error: template argument 1 is invalid
+  241 |       curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                                                                                                          ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

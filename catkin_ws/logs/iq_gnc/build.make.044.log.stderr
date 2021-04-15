@@ -1,0 +1,10 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:89:21: error: ‘controlnode’ was not declared in this scope
+   89 |       drone1State = controlnode.subscribe<mavros_msgs::State>( "/drone1/mavros/state", 1, state_cb);
+      |                     ^~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:89:61: error: expected primary-expression before ‘>’ token
+   89 |       drone1State = controlnode.subscribe<mavros_msgs::State>( "/drone1/mavros/state", 1, state_cb);
+      |                                                             ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1949: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

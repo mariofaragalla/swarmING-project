@@ -1,0 +1,8 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:207:24: error: ‘different_bet_2_wps’ was not declared in this scope; did you mean ‘difference_bet_2_wps’?
+  207 |   base_difference_wp = different_bet_2_wps(drone1_global_position, current_global_position_2);
+      |                        ^~~~~~~~~~~~~~~~~~~
+      |                        difference_bet_2_wps
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

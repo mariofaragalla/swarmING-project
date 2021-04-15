@@ -1,0 +1,68 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:52:6: error: redefinition of ‘bool isMapOriginSet’
+   52 | bool isMapOriginSet = false;
+      |      ^~~~~~~~~~~~~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:45:6: note: ‘bool isMapOriginSet’ previously defined here
+   45 | bool isMapOriginSet = false;
+      |      ^~~~~~~~~~~~~~
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:10,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:69: error: ‘geometry_msgs::PoseStamped’ {aka ‘struct geometry_msgs::PoseStamped_<std::allocator<void> >’} has no member named ‘x’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |                                                                     ^
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:3: note: in expansion of macro ‘ROS_INFO’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |   ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:98: error: ‘geometry_msgs::PoseStamped’ {aka ‘struct geometry_msgs::PoseStamped_<std::allocator<void> >’} has no member named ‘y’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |                                                                                                  ^
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:3: note: in expansion of macro ‘ROS_INFO’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |   ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:127: error: ‘geometry_msgs::PoseStamped’ {aka ‘struct geometry_msgs::PoseStamped_<std::allocator<void> >’} has no member named ‘z’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |                                                                                                                               ^
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:3: note: in expansion of macro ‘ROS_INFO’
+  205 |   ROS_INFO("LLA2XYZ: [%.2f, %.2f, %.2f]", current_global_position_2.x, current_global_position_2.y, current_global_position_2.z);
+      |   ^~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

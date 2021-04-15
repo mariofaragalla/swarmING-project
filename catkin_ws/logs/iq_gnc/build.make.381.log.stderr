@@ -1,0 +1,7 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:262:27: error: lvalue required as increment operand
+  262 |    go_to_goalPos(100,100,4++);
+      |                           ^~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,46 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/gnc_tutorial.cpp:1:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:17: error: ‘gnc_node’ was not declared in this scope
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                 ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:49: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                 PositionTarget
+make[2]: *** [CMakeFiles/gnc_example.dir/build.make:63: CMakeFiles/gnc_example.dir/src/gnc_tutorial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1648: CMakeFiles/gnc_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/pub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:17: error: ‘gnc_node’ was not declared in this scope
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                 ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:49: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                 PositionTarget
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/pub.dir/all] Error 2
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/square.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:17: error: ‘gnc_node’ was not declared in this scope
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                 ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:49: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                 PositionTarget
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/square.dir/all] Error 2
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:17: error: ‘gnc_node’ was not declared in this scope
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                 ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:454:49: error: ‘GlobalPositionTarget’ is not a member of ‘mavros_msgs’; did you mean ‘PositionTarget’?
+  454 |  curr_gps_pub = gnc_node.advertise<mavros_msgs::GlobalPositionTarget>((ros_namespace +"mavros/setpoint_position/global").c_str(), 10);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                 PositionTarget
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

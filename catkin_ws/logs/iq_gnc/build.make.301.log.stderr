@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o: in function `gps_data_cb(boost::shared_ptr<sensor_msgs::NavSatFix_<std::allocator<void> > const> const&)':
+follower_sub.cpp:(.text+0x3416): undefined reference to `gps_position'
+/usr/bin/ld: follower_sub.cpp:(.text+0x3423): undefined reference to `gps_position'
+/usr/bin/ld: follower_sub.cpp:(.text+0x3430): undefined reference to `gps_position'
+/usr/bin/ld: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o: in function `drone1_gpsSub_cb(boost::shared_ptr<sensor_msgs::NavSatFix_<std::allocator<void> > const> const&)':
+follower_sub.cpp:(.text+0x51a3): undefined reference to `gps_position'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:119: /home/mario/catkin_ws/devel/.private/iq_gnc/lib/iq_gnc/follower_sub] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

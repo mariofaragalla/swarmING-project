@@ -1,0 +1,16 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:476:1: error: ‘eometry_msgs’ does not name a type; did you mean ‘geometry_msgs’?
+  476 | eometry_msgs::PoseStamped get_global_position(){
+      | ^~~~~~~~~~~~
+      | geometry_msgs
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:209:51: error: too few arguments to function ‘geometry_msgs::PoseStamped get_global_position(sensor_msgs::NavSatFix)’
+  209 |   current_global_position_2 = get_global_position();
+      |                                                   ^
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:487:28: note: declared here
+  487 | geometry_msgs::PoseStamped get_global_position(sensor_msgs::NavSatFix gps_pos){
+      |                            ^~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

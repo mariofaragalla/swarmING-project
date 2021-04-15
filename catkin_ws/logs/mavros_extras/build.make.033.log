@@ -1,0 +1,491 @@
+[35m[1mScanning dependencies of target servo_state_publisher[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  3%] [32mBuilding CXX object CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o[0m
+[  3%] Built target trajectory_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_lisp
+[  3%] Built target trajectory_msgs_generate_messages_cpp
+[  3%] Built target tf2_msgs_generate_messages_nodejs
+[  3%] Built target tf2_msgs_generate_messages_cpp
+[  3%] Built target tf2_msgs_generate_messages_lisp
+[  3%] Built target tf_generate_messages_eus
+[  3%] Built target actionlib_generate_messages_nodejs
+[  3%] Built target actionlib_generate_messages_cpp
+[  3%] Built target actionlib_msgs_generate_messages_eus
+[  3%] Built target rosgraph_msgs_generate_messages_lisp
+[  3%] Built target visualization_msgs_generate_messages_eus
+[  3%] Built target nav_msgs_generate_messages_cpp
+[  3%] Built target trajectory_msgs_generate_messages_eus
+[  3%] Built target roscpp_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target actionlib_generate_messages_py
+[  3%] Built target diagnostic_msgs_generate_messages_eus
+[  3%] Built target nav_msgs_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_cpp
+[  3%] Built target roscpp_generate_messages_cpp
+[  3%] Built target geometry_msgs_generate_messages_py
+[  3%] Built target tf2_msgs_generate_messages_eus
+[  3%] Built target std_msgs_generate_messages_py
+[  3%] Built target sensor_msgs_generate_messages_py
+[  3%] Built target tf_generate_messages_lisp
+[  3%] Built target nav_msgs_generate_messages_py
+[  3%] Built target actionlib_generate_messages_lisp
+[  3%] Built target roscpp_generate_messages_lisp
+[  3%] Built target mavros_msgs_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] Built target actionlib_generate_messages_eus
+[  3%] Built target trajectory_msgs_generate_messages_py
+[  3%] Built target diagnostic_msgs_generate_messages_nodejs
+[  3%] Built target rosgraph_msgs_generate_messages_cpp
+[  3%] Built target uuid_msgs_generate_messages_lisp
+[  3%] Built target roscpp_generate_messages_nodejs
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_lisp
+[  3%] Built target mavros_msgs_generate_messages_py
+[  3%] Built target roscpp_generate_messages_eus
+[  3%] Built target uuid_msgs_generate_messages_eus
+[  3%] Built target rosgraph_msgs_generate_messages_nodejs
+[  3%] Built target uuid_msgs_generate_messages_cpp
+[  3%] Built target geographic_msgs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_eus
+[  3%] Built target geographic_msgs_generate_messages_eus
+[  3%] Built target nav_msgs_generate_messages_nodejs
+[  3%] Built target geographic_msgs_generate_messages_lisp
+[  3%] Built target sensor_msgs_generate_messages_cpp
+[  3%] Built target visualization_msgs_generate_messages_cpp
+[  3%] Built target geographic_msgs_generate_messages_nodejs
+[  3%] Built target diagnostic_msgs_generate_messages_py
+[  3%] Built target geographic_msgs_generate_messages_py
+[  3%] Built target sensor_msgs_generate_messages_eus
+[  3%] Built target sensor_msgs_generate_messages_lisp
+[  3%] Built target mavros_msgs_generate_messages_cpp
+[  3%] Built target uuid_msgs_generate_messages_py
+[  3%] Built target uuid_msgs_generate_messages_nodejs
+[  3%] Built target actionlib_msgs_generate_messages_py
+[  3%] Built target mavros_msgs_generate_messages_lisp
+[  3%] Built target tf2_msgs_generate_messages_py
+[  3%] Built target mavros_msgs_generate_messages_nodejs
+[  3%] Built target sensor_msgs_generate_messages_nodejs
+[  3%] Built target actionlib_msgs_generate_messages_cpp
+[  3%] Built target nav_msgs_generate_messages_lisp
+[  3%] Built target tf_generate_messages_py
+[  3%] Built target actionlib_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target visualization[0m
+[  6%] [32mBuilding CXX object CMakeFiles/visualization.dir/src/visualization.cpp.o[0m
+[35m[1mScanning dependencies of target mavros_extras[0m
+[ 10%] [32m[1mLinking CXX executable /home/mario/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/companion_process_status.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/onboard_computer_status.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o[0m
+[ 27%] Built target servo_state_publisher
+[ 31%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/esc_status.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable /home/mario/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/visualization[0m
+[ 37%] Built target visualization
+[ 41%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 44%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_status.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/landing_target.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 55%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 58%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 62%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 65%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp:21:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp:21:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 68%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/play_tune.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 72%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 75%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 82%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 86%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp:1:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp:1:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 89%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp:1:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp:1:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 93%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/wheel_odometry.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp:19:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp:19:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 96%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mount_control.cpp.o[0m
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp:19:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp:19:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp:18:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp:17:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[100%] [32m[1mLinking CXX shared library /home/mario/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so[0m
+[100%] Built target mavros_extras

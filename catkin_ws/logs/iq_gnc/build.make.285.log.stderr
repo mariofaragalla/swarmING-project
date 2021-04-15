@@ -1,0 +1,70 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/pub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void set_map_origin(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:29: error: unable to find string literal operator ‘operator""_’ with ‘const char [10]’, ‘long unsigned int’ arguments
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                             ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:72: error: request for member ‘c_str’ in ‘("/drone1")’, which is of non-class type ‘const char [8]’
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                                                                        ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:497:2: error: ‘curr_gpsSens_sub’ was not declared in this scope; did you mean ‘curr_gpsSens_pub’?
+  497 |  curr_gpsSens_sub = controlnode.subscribe<sensor_msgs::NavSatFix>((ros_namespace +"/mavros/global_position/raw/fix").c_str(), 10, gps_data_cb);
+      |  ^~~~~~~~~~~~~~~~
+      |  curr_gpsSens_pub
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/pub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/gnc_tutorial.cpp:1:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void set_map_origin(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:29: error: unable to find string literal operator ‘operator""_’ with ‘const char [10]’, ‘long unsigned int’ arguments
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                             ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:72: error: request for member ‘c_str’ in ‘("/drone1")’, which is of non-class type ‘const char [8]’
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                                                                        ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:497:2: error: ‘curr_gpsSens_sub’ was not declared in this scope; did you mean ‘curr_gpsSens_pub’?
+  497 |  curr_gpsSens_sub = controlnode.subscribe<sensor_msgs::NavSatFix>((ros_namespace +"/mavros/global_position/raw/fix").c_str(), 10, gps_data_cb);
+      |  ^~~~~~~~~~~~~~~~
+      |  curr_gpsSens_pub
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/square.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void set_map_origin(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:29: error: unable to find string literal operator ‘operator""_’ with ‘const char [10]’, ‘long unsigned int’ arguments
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                             ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:72: error: request for member ‘c_str’ in ‘("/drone1")’, which is of non-class type ‘const char [8]’
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                                                                        ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:497:2: error: ‘curr_gpsSens_sub’ was not declared in this scope; did you mean ‘curr_gpsSens_pub’?
+  497 |  curr_gpsSens_sub = controlnode.subscribe<sensor_msgs::NavSatFix>((ros_namespace +"/mavros/global_position/raw/fix").c_str(), 10, gps_data_cb);
+      |  ^~~~~~~~~~~~~~~~
+      |  curr_gpsSens_pub
+make[2]: *** [CMakeFiles/gnc_example.dir/build.make:63: CMakeFiles/gnc_example.dir/src/gnc_tutorial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1648: CMakeFiles/gnc_example.dir/all] Error 2
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/square.dir/all] Error 2
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void set_map_origin(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:29: error: unable to find string literal operator ‘operator""_’ with ‘const char [10]’, ‘long unsigned int’ arguments
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                             ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:460:72: error: request for member ‘c_str’ in ‘("/drone1")’, which is of non-class type ‘const char [8]’
+  460 |  if(current_state_g.mode == "STABILIZE"_&& ros_namespace = ("/drone1").c_str()){
+      |                                                                        ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:497:2: error: ‘curr_gpsSens_sub’ was not declared in this scope; did you mean ‘curr_gpsSens_pub’?
+  497 |  curr_gpsSens_sub = controlnode.subscribe<sensor_msgs::NavSatFix>((ros_namespace +"/mavros/global_position/raw/fix").c_str(), 10, gps_data_cb);
+      |  ^~~~~~~~~~~~~~~~
+      |  curr_gpsSens_pub
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: At global scope:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:50:13: error: redefinition of ‘std::string ros_namespace’
+   50 | std::string ros_namespace;
+      |             ^~~~~~~~~~~~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:58:13: note: ‘std::string ros_namespace’ previously declared here
+   58 | std::string ros_namespace;
+      |             ^~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

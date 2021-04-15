@@ -1,0 +1,61 @@
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void go_to_goalPos(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:73: error: ‘geographic_msgs::GeoPoseStamped’ {aka ‘struct geographic_msgs::GeoPoseStamped_<std::allocator<void> >’} has no member named ‘latitude’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |                                                                         ^~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:5: note: in expansion of macro ‘ROS_INFO’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |     ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:106: error: ‘geographic_msgs::GeoPoseStamped’ {aka ‘struct geographic_msgs::GeoPoseStamped_<std::allocator<void> >’} has no member named ‘longitude’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |                                                                                                          ^~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:5: note: in expansion of macro ‘ROS_INFO’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |     ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:140: error: ‘geographic_msgs::GeoPoseStamped’ {aka ‘struct geographic_msgs::GeoPoseStamped_<std::allocator<void> >’} has no member named ‘altitude’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |                                                                                                                                            ^~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:538:5: note: in expansion of macro ‘ROS_INFO’
+  538 |     ROS_INFO("Go To: LA: %f , LO: %f , ALT: %f", target_global_position.latitude, target_global_position.longitude ,target_global_position.altitude);
+      |     ^~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,52 @@
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:10:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:10:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/mario/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:217:14: error: ‘MAV_FRAME’ was not declared in this scope; did you mean ‘mavlink::common::MAV_FRAME’?
+  217 |      uint8_t(MAV_FRAME::GLOBAL_INT),
+      |              ^~~~~~~~~
+      |              mavlink::common::MAV_FRAME
+In file included from /home/mario/catkin_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.h:26,
+                 from /home/mario/catkin_ws/src/mavros/libmavconn/include/mavconn/interface.h:37,
+                 from /home/mario/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:24,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:10:
+/home/mario/catkin_ws/devel/include/mavlink/v2.0/common/common.hpp:139:12: note: ‘mavlink::common::MAV_FRAME’ declared here
+  139 | enum class MAV_FRAME : uint8_t
+      |            ^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:218:6: error: ‘type_mask’ was not declared in this scope
+  218 |      type_mask,
+      |      ^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:219:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  219 |      msg->pose.position.latitude * 1e7,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:220:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  220 |      msg->pose.position.longitude * 1e7,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:221:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  221 |      msg->pose.position.altitude,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:224:6: error: ‘ftf’ has not been declared
+  224 |      ftf::quaternion_get_yaw(q),
+      |      ^~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:224:30: error: ‘q’ was not declared in this scope
+  224 |      ftf::quaternion_get_yaw(q),
+      |                              ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:216:3: error: ‘set_position_target_global_int’ was not declared in this scope
+  216 |   set_position_target_global_int( msg->header.stamp.toNSec() / 1000000,
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,29 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:200:2: error: expected initializer before ‘sensor_msgs’
+  200 |  sensor_msgs::NavSatFix drone1_gps_g = *msg;
+      |  ^~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:41: error: ‘drone1_gps_g’ was not declared in this scope; did you mean ‘drone1_pose_g’?
+  205 |  if(drone1_state.mode == "STABILIZE" && drone1_gps_g.altitude != 0 && !isMapOriginSet){
+      |                                         ^~~~~~~~~~~~
+      |                                         drone1_pose_g
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:207:3: error: ‘base_difference_wp’ was not declared in this scope
+  207 |   base_difference_wp = different_bet_2_wps(drone1_global_position, current_global_position_2);
+      |   ^~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:213:48: error: ‘drone1_gps_g’ was not declared in this scope; did you mean ‘drone1_pose_g’?
+  213 |   drone1_global_position = get_global_position(drone1_gps_g);
+      |                                                ^~~~~~~~~~~~
+      |                                                drone1_pose_g
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:240:47: error: ‘difference_bet_2_wps’ was not declared in this scope; did you mean ‘different_bet_2_wps’?
+  240 |    geometry_msgs::PoseStamped difference_wp = difference_bet_2_wps(drone1_global_position, current_global_position_2);
+      |                                               ^~~~~~~~~~~~~~~~~~~~
+      |                                               different_bet_2_wps
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:243:40: error: expected initializer before ‘difference_bet_2_wps’
+  243 |    geometry_msgs::PoseStamped error_wp difference_bet_2_wps(difference_wp, base_difference_wp);
+      |                                        ^~~~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:245:20: error: ‘error_wp’ was not declared in this scope; did you mean ‘error_t’?
+  245 |    set_destination(error_wp.position.pose.position.x, error_wp.position.pose.position.y, error_wp.position.pose.position.z);
+      |                    ^~~~~~~~
+      |                    error_t
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

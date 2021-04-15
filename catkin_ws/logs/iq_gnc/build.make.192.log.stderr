@@ -1,0 +1,39 @@
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub3.cpp', needed by 'CMakeFiles/sub3.dir/src/sub3.cpp.o'.  Stop.
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub2.cpp', needed by 'CMakeFiles/sub2.dir/src/sub2.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/sub2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/sub3.dir/all] Error 2
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_pos_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:39:32: error: ‘geometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::Pose_<std::allocator<void> >’} has no member named ‘pose’
+   39 |  drone1_x = drone1_pose_g.pose.pose.position.x;
+      |                                ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:40:32: error: ‘geometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::Pose_<std::allocator<void> >’} has no member named ‘pose’
+   40 |  drone1_y = drone1_pose_g.pose.pose.position.y;
+      |                                ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:41:32: error: ‘geometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::Pose_<std::allocator<void> >’} has no member named ‘pose’
+   41 |  drone1_z = drone1_pose_g.pose.pose.position.z;
+      |                                ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_globalPos_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:106:24: error: no match for ‘operator=’ (operand types are ‘nav_msgs::Odometry’ {aka ‘nav_msgs::Odometry_<std::allocator<void> >’} and ‘const mavros_msgs::State_<std::allocator<void> >’)
+  106 |  drone1_globalPos_g = *msg;
+      |                        ^~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:4,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/nav_msgs/Odometry.h:25:8: note: candidate: ‘nav_msgs::Odometry_<std::allocator<void> >& nav_msgs::Odometry_<std::allocator<void> >::operator=(const nav_msgs::Odometry_<std::allocator<void> >&)’
+   25 | struct Odometry_
+      |        ^~~~~~~~~
+/opt/ros/noetic/include/nav_msgs/Odometry.h:25:8: note:   no known conversion for argument 1 from ‘const mavros_msgs::State_<std::allocator<void> >’ to ‘const nav_msgs::Odometry_<std::allocator<void> >&’
+/opt/ros/noetic/include/nav_msgs/Odometry.h:25:8: note: candidate: ‘nav_msgs::Odometry_<std::allocator<void> >& nav_msgs::Odometry_<std::allocator<void> >::operator=(nav_msgs::Odometry_<std::allocator<void> >&&)’
+/opt/ros/noetic/include/nav_msgs/Odometry.h:25:8: note:   no known conversion for argument 1 from ‘const mavros_msgs::State_<std::allocator<void> >’ to ‘nav_msgs::Odometry_<std::allocator<void> >&&’
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:108:44: error: ‘nav_msgs::Odometry_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >’} has no member named ‘position’
+  108 |  global_drone1_x = drone1_globalPos_g.pose.position.x;
+      |                                            ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:109:44: error: ‘nav_msgs::Odometry_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >’} has no member named ‘position’
+  109 |  global_drone1_y = drone1_globalPos_g.pose.position.y;
+      |                                            ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:110:44: error: ‘nav_msgs::Odometry_<std::allocator<void> >::_pose_type’ {aka ‘struct geometry_msgs::PoseWithCovariance_<std::allocator<void> >’} has no member named ‘position’
+  110 |  global_drone1_z = drone1_globalPos_g.pose.position.z;
+      |                                            ^~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1949: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

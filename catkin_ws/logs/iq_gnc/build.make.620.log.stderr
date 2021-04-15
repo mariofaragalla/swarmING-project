@@ -1,0 +1,33 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::Vector3Stamped Fext(geometry_msgs::PoseStamped, geometry_msgs::TwistStamped*, int)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:648:162: error: ‘deltaT’ was not declared in this scope; did you mean ‘deltaX’?
+  648 |  float Fextx = (K_d * deltaX.pose.position.y) + (D_d * deltaX_dot[k].twist.linear.x) + (M_d * (deltaX_dot[k].twist.linear.x - deltaX_dot[prev].twist.linear.x) / deltaT);
+      |                                                                                                                                                                  ^~~~~~
+      |                                                                                                                                                                  deltaX
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:652:37: error: request for member ‘header’ in ‘deltaX_dot’, which is of pointer type ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’} (maybe you meant to use ‘->’ ?)
+  652 |  Fext_vec.header.stamp = deltaX_dot.header.stamp;
+      |                                     ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:724:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  724 | }
+      | ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsVelSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:328:70: error: no matching function for call to ‘Fext(geometry_msgs::PoseStamped&, geometry_msgs::TwistStamped&, uint8_t&)’
+  328 |     reach_goalVel(acc2vel(Fext(posError_wp, velError_tw , sampleCount), curr_gps_vel_g ,abs(my_time[1]-my_time[0])));
+      |                                                                      ^
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:636:31: note: candidate: ‘geometry_msgs::Vector3Stamped Fext(geometry_msgs::PoseStamped, geometry_msgs::TwistStamped*, int)’
+  636 | geometry_msgs::Vector3Stamped Fext (geometry_msgs::PoseStamped deltaX , geometry_msgs::TwistStamped deltaX_dot[], int k){
+      |                               ^~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:636:101: note:   no known conversion for argument 2 from ‘geometry_msgs::TwistStamped’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >’} to ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’}
+  636 | geometry_msgs::Vector3Stamped Fext (geometry_msgs::PoseStamped deltaX , geometry_msgs::TwistStamped deltaX_dot[], int k){
+      |                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:662:31: note: candidate: ‘geometry_msgs::Vector3Stamped Fext(geometry_msgs::PoseStamped, geometry_msgs::TwistStamped, geometry_msgs::Vector3Stamped)’
+  662 | geometry_msgs::Vector3Stamped Fext (geometry_msgs::PoseStamped deltaX , geometry_msgs::TwistStamped deltaX_dot , geometry_msgs::Vector3Stamped deltaX_double_dot){
+      |                               ^~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:662:144: note:   no known conversion for argument 3 from ‘uint8_t’ {aka ‘unsigned char’} to ‘geometry_msgs::Vector3Stamped’ {aka ‘geometry_msgs::Vector3Stamped_<std::allocator<void> >’}
+  662 | geometry_msgs::Vector3Stamped Fext (geometry_msgs::PoseStamped deltaX , geometry_msgs::TwistStamped deltaX_dot , geometry_msgs::Vector3Stamped deltaX_double_dot){
+      |                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

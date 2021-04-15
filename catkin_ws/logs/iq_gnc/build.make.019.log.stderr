@@ -1,0 +1,7 @@
+/home/mario/catkin_ws/src/iq_gnc/src/sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/sub.cpp:67:5: error: ‘else’ without a previous ‘if’
+   67 |     else {
+      |     ^~~~
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:433: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

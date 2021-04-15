@@ -1,0 +1,89 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void set_linear_accel(float, float, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:667:17: error: ‘AccelWithCovariance’ is not a member of ‘geometry_msgs’; did you mean ‘PoseWithCovariance’?
+  667 |  geometry_msgs::AccelWithCovariance acceleration;
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 PoseWithCovariance
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:668:2: error: ‘acceleration’ was not declared in this scope
+  668 |  acceleration.accel.linear.x = x;
+      |  ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:671:20: error: ‘accel’ was not declared in this scope
+  671 |  accel_pub.publish(accel);
+      |                    ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:701:52: error: ‘AccelWithCovariance’ is not a member of ‘geometry_msgs’; did you mean ‘PoseWithCovariance’?
+  701 |   accel_pub = controlnode.advertise<geometry_msgs::AccelWithCovariance>((ros_namespace +"/mavros/local_position/accel").c_str(), 10);
+      |                                                    ^~~~~~~~~~~~~~~~~~~
+      |                                                    PoseWithCovariance
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:701:52: error: ‘AccelWithCovariance’ is not a member of ‘geometry_msgs’; did you mean ‘PoseWithCovariance’?
+  701 |   accel_pub = controlnode.advertise<geometry_msgs::AccelWithCovariance>((ros_namespace +"/mavros/local_position/accel").c_str(), 10);
+      |                                                    ^~~~~~~~~~~~~~~~~~~
+      |                                                    PoseWithCovariance
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:701:132: error: no matching function for call to ‘ros::NodeHandle::advertise<<expression error> >(const char*, int)’
+  701 |   accel_pub = controlnode.advertise<geometry_msgs::AccelWithCovariance>((ros_namespace +"/mavros/local_position/accel").c_str(), 10);
+      |                                                                                                                                    ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:14,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)’
+  249 |     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note:   template argument deduction/substitution failed:
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:701:132: error: template argument 1 is invalid
+  701 |   accel_pub = controlnode.advertise<geometry_msgs::AccelWithCovariance>((ros_namespace +"/mavros/local_position/accel").c_str(), 10);
+      |                                                                                                                                    ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:14,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)’
+  315 |   Publisher advertise(const std::string& topic, uint32_t queue_size,
+      |             ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note:   template argument deduction/substitution failed:
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:701:132: error: template argument 1 is invalid
+  701 |   accel_pub = controlnode.advertise<geometry_msgs::AccelWithCovariance>((ros_namespace +"/mavros/local_position/accel").c_str(), 10);
+      |                                                                                                                                    ^
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:14,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:220:5: note: in expansion of macro ‘ROS_INFO’
+  220 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:224:5: note: in expansion of macro ‘ROS_INFO’
+  224 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

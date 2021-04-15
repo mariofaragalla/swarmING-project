@@ -1,0 +1,25 @@
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub2.cpp', needed by 'CMakeFiles/sub2.dir/src/sub2.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/sub2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub3.cpp', needed by 'CMakeFiles/sub3.dir/src/sub3.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/sub3.dir/all] Error 2
+In file included from /usr/include/boost/function/detail/maybe_include.hpp:22,
+                 from /usr/include/boost/function/detail/function_iterate.hpp:14,
+                 from /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:53,
+                 from /usr/include/boost/function.hpp:71,
+                 from /opt/ros/noetic/include/ros/forwards.h:40,
+                 from /opt/ros/noetic/include/ros/common.h:37,
+                 from /opt/ros/noetic/include/ros/ros.h:43,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:9,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘static void boost::detail::function::void_function_invoker1<FunctionPtr, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionPtr = void (*)(const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const mavros_msgs::State_<std::allocator<void> > >&]’:
+/usr/include/boost/function/function_template.hpp:931:38:   required from ‘void boost::function1<R, T1>::assign_to(Functor) [with Functor = void (*)(const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const mavros_msgs::State_<std::allocator<void> > >&]’
+/usr/include/boost/function/function_template.hpp:720:7:   required from ‘boost::function1<R, T1>::function1(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const mavros_msgs::State_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1068:16:   required from ‘boost::function<R(T0)>::function(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const mavros_msgs::State_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int]’
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:170:129:   required from here
+/usr/include/boost/function/function_template.hpp:117:11: error: invalid initialization of reference of type ‘const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&’ from expression of type ‘const boost::shared_ptr<const mavros_msgs::State_<std::allocator<void> > >’
+  117 |           BOOST_FUNCTION_RETURN(f(BOOST_FUNCTION_ARGS));
+      |           ^~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1949: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

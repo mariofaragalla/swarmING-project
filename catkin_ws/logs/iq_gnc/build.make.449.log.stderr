@@ -1,0 +1,8 @@
+In file included from [01m[K/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3[m[K:
+[01m[K/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/TwistStampedd.h: No such file or directory
+    8 | #include [01;31m[K<geometry_msgs/TwistStampedd.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

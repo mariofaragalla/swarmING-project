@@ -1,0 +1,14 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_mean_filter(geometry_msgs::TwistStamped*)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:763:47: warning: ‘sizeof’ on array function parameter ‘vel_arr’ will return size of ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’} [-Wsizeof-array-argument]
+  763 |  avg_vel.twist.linear.x = sum_x/sizeof(vel_arr);
+      |                                               ^
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:750:74: note: declared here
+  750 | geometry_msgs::TwistStamped vel_mean_filter( geometry_msgs::TwistStamped vel_arr[]){
+      |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:764:47: warning: ‘sizeof’ on array function parameter ‘vel_arr’ will return size of ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’} [-Wsizeof-array-argument]
+  764 |  avg_vel.twist.linear.y = sum_y/sizeof(vel_arr);
+      |                                               ^
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:750:74: note: declared here
+  750 | geometry_msgs::TwistStamped vel_mean_filter( geometry_msgs::TwistStamped vel_arr[]){
+      |                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~

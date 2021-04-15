@@ -1,0 +1,7 @@
+/home/mario/catkin_ws/src/iq_gnc/src/sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/sub.cpp:58:95: error: request for member ‘c_str’ in ‘("/drone1/mavros/local_position/pose")’, which is of non-class type ‘const char [35]’
+   58 |     drone1Pos = gnc_node.subscribe<nav_msgs::Odometry>(("/drone1/mavros/local_position/pose").c_str(), 10, drone1_pos_cb);
+      |                                                                                               ^~~~~
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:433: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

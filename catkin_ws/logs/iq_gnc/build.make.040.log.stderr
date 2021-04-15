@@ -1,0 +1,19 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:67:19: error: ‘class ros::Subscriber’ has no member named ‘z’
+   67 |   if ((currentPos.z =>0 && currentPos.z <= 0.1) && drone1Pos.z > 0.1 ) {
+      |                   ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:67:22: error: expected primary-expression before ‘>’ token
+   67 |   if ((currentPos.z =>0 && currentPos.z <= 0.1) && drone1Pos.z > 0.1 ) {
+      |                      ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:67:39: error: ‘class ros::Subscriber’ has no member named ‘z’
+   67 |   if ((currentPos.z =>0 && currentPos.z <= 0.1) && drone1Pos.z > 0.1 ) {
+      |                                       ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:67:62: error: ‘class ros::Subscriber’ has no member named ‘z’
+   67 |   if ((currentPos.z =>0 && currentPos.z <= 0.1) && drone1Pos.z > 0.1 ) {
+      |                                                              ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:68:22: error: ‘class ros::Subscriber’ has no member named ‘z’
+   68 |    takeoff(drone1Pos.z);
+      |                      ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1949: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,31 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:178:29: error: ‘geographic_msgs’ does not name a type
+  178 | void drone1_gpsSub_cb(const geographic_msgs::GeoPoseStamped& msg){
+      |                             ^~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:178:60: error: expected unqualified-id before ‘&’ token
+  178 | void drone1_gpsSub_cb(const geographic_msgs::GeoPoseStamped& msg){
+      |                                                            ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:178:60: error: expected ‘)’ before ‘&’ token
+  178 | void drone1_gpsSub_cb(const geographic_msgs::GeoPoseStamped& msg){
+      |                      ~                                     ^
+      |                                                            )
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:178:62: error: expected initializer before ‘msg’
+  178 | void drone1_gpsSub_cb(const geographic_msgs::GeoPoseStamped& msg){
+      |                                                              ^~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:245:7: error: ‘drone1_gps_sub’ was not declared in this scope; did you mean ‘drone1_pos_cb’?
+  245 |       drone1_gps_sub = gnc_node.subscribe<geographic_msgs::GeoPoseStamped>("/drone1/mavros/setpoint_position/global", 10, drone1_gpsSub_cb);
+      |       ^~~~~~~~~~~~~~
+      |       drone1_pos_cb
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:245:43: error: ‘geographic_msgs’ was not declared in this scope
+  245 |       drone1_gps_sub = gnc_node.subscribe<geographic_msgs::GeoPoseStamped>("/drone1/mavros/setpoint_position/global", 10, drone1_gpsSub_cb);
+      |                                           ^~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:245:33: error: parse error in template argument list
+  245 |       drone1_gps_sub = gnc_node.subscribe<geographic_msgs::GeoPoseStamped>("/drone1/mavros/setpoint_position/global", 10, drone1_gpsSub_cb);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:245:123: error: ‘drone1_gpsSub_cb’ was not declared in this scope; did you mean ‘drone1_pos_cb’?
+  245 |       drone1_gps_sub = gnc_node.subscribe<geographic_msgs::GeoPoseStamped>("/drone1/mavros/setpoint_position/global", 10, drone1_gpsSub_cb);
+      |                                                                                                                           ^~~~~~~~~~~~~~~~
+      |                                                                                                                           drone1_pos_cb
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

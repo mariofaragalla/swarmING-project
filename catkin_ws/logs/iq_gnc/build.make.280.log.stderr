@@ -1,0 +1,64 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:41:11: error: ‘ros::Time time’ redeclared as different kind of entity
+   41 | ros::Time time;
+      |           ^~~~
+In file included from /usr/include/pthread.h:23,
+                 from /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:148,
+                 from /usr/include/c++/9/ext/atomicity.h:35,
+                 from /usr/include/c++/9/bits/basic_string.h:39,
+                 from /usr/include/c++/9/string:55,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:1,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/usr/include/time.h:75:15: note: previous declaration ‘time_t time(time_t*)’
+   75 | extern time_t time (time_t *__timer) __THROW;
+      |               ^~~~
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:10,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:192:12: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
+  192 |   ROS_INFO("Got global position: [%.2f, %.2f, %.2f , %f]", msg->latitude, msg->longitude, msg->altitude);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:165: note: in definition of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                     ^~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:192:3: note: in expansion of macro ‘ROS_INFO’
+  192 |   ROS_INFO("Got global position: [%.2f, %.2f, %.2f , %f]", msg->latitude, msg->longitude, msg->altitude);
+      |   ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:192:55: note: format string is defined here
+  192 |   ROS_INFO("Got global position: [%.2f, %.2f, %.2f , %f]", msg->latitude, msg->longitude, msg->altitude);
+      |                                                      ~^
+      |                                                       |
+      |                                                       double
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:203:29: error: no match for ‘operator=’ (operand types are ‘std_msgs::Header_<std::allocator<void> >::_stamp_type’ {aka ‘ros::Time’} and ‘time_t(time_t*) throw ()’ {aka ‘long int(long int*)’})
+  203 |   curr_gps_g.header.stamp = time;
+      |                             ^~~~
+In file included from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/mario/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:1,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/time.h:170:22: note: candidate: ‘constexpr ros::Time& ros::Time::operator=(const ros::Time&)’
+  170 |   class ROSTIME_DECL Time : public TimeBase<Time, Duration>
+      |                      ^~~~
+/opt/ros/noetic/include/ros/time.h:170:22: note:   no known conversion for argument 1 from ‘time_t(time_t*) throw ()’ {aka ‘long int(long int*)’} to ‘const ros::Time&’
+/opt/ros/noetic/include/ros/time.h:170:22: note: candidate: ‘constexpr ros::Time& ros::Time::operator=(ros::Time&&)’
+/opt/ros/noetic/include/ros/time.h:170:22: note:   no known conversion for argument 1 from ‘time_t(time_t*) throw ()’ {aka ‘long int(long int*)’} to ‘ros::Time&&’
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:224:7: error: assignment of function ‘time_t time(time_t*)’
+  224 |  time = ros::Time::now();
+      |  ~~~~~^~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

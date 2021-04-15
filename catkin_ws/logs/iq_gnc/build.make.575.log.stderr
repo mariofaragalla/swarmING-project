@@ -1,0 +1,18 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘void fixyaw()’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:582:68: error: ‘class ros::Subscriber’ has no member named ‘pose’
+  582 |  target_global_position.pose.position.latitude =  curr_gps_posData.pose.position.latitude ;
+      |                                                                    ^~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:583:68: error: ‘class ros::Subscriber’ has no member named ‘pose’
+  583 |  target_global_position.pose.position.longitude = curr_gps_posData.pose.position.longitude;
+      |                                                                    ^~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:584:68: error: ‘class ros::Subscriber’ has no member named ‘pose’
+  584 |  target_global_position.pose.position.altitude =  curr_gps_posData.pose.position.altitude ;
+      |                                                                    ^~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:719:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  719 | }
+      | ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

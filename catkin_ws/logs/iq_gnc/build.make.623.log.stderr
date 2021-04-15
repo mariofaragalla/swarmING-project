@@ -1,0 +1,12 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::Vector3Stamped Fext(geometry_msgs::PoseStamped, geometry_msgs::TwistStamped*, float, int)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:652:37: error: request for member ‘header’ in ‘deltaX_dot’, which is of pointer type ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’} (maybe you meant to use ‘->’ ?)
+  652 |  Fext_vec.header.stamp = deltaX_dot.header.stamp;
+      |                                     ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:724:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  724 | }
+      | ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

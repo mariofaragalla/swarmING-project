@@ -1,0 +1,34 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:205:14: error: ‘MAV_FRAME’ was not declared in this scope
+  205 |      uint8_t(MAV_FRAME::GLOBAL_INT),
+      |              ^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:206:6: error: ‘type_mask’ was not declared in this scope
+  206 |      type_mask,
+      |      ^~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:207:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  207 |      msg->pose.position.latitude * 1e7,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:208:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  208 |      msg->pose.position.longitude * 1e7,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:209:11: error: ‘const struct sensor_msgs::NavSatFix_<std::allocator<void> >’ has no member named ‘pose’
+  209 |      msg->pose.position.altitude,
+      |           ^~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:210:6: error: ‘Eigen’ has not been declared
+  210 |      Eigen::Vector3d::Zero(),
+      |      ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:211:6: error: ‘Eigen’ has not been declared
+  211 |      Eigen::Vector3d::Zero(),
+      |      ^~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:212:6: error: ‘ftf’ has not been declared
+  212 |      ftf::quaternion_get_yaw(q),
+      |      ^~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:212:30: error: ‘q’ was not declared in this scope
+  212 |      ftf::quaternion_get_yaw(q),
+      |                              ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:204:3: error: ‘set_position_target_global_int’ was not declared in this scope
+  204 |   set_position_target_global_int( msg->header.stamp.toNSec() / 1000000,
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

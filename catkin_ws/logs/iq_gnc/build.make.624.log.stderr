@@ -1,0 +1,5 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:724:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  724 | }
+      | ^

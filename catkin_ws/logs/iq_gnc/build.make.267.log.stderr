@@ -1,0 +1,43 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:270:56: error: ‘GlobalPositionTarget’ is not a member of ‘sensor_msgs’; did you mean ‘mavros_msgs::GlobalPositionTarget’?
+  270 |       curr_gps_pub_1 = gnc_node.advertise<sensor_msgs::GlobalPositionTarget>("mavros/setpoint_position/global", 10);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:4,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/devel/include/mavros_msgs/GlobalPositionTarget.h:160:69: note: ‘mavros_msgs::GlobalPositionTarget’ declared here
+  160 | typedef ::mavros_msgs::GlobalPositionTarget_<std::allocator<void> > GlobalPositionTarget;
+      |                                                                     ^~~~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:270:56: error: ‘GlobalPositionTarget’ is not a member of ‘sensor_msgs’; did you mean ‘mavros_msgs::GlobalPositionTarget’?
+  270 |       curr_gps_pub_1 = gnc_node.advertise<sensor_msgs::GlobalPositionTarget>("mavros/setpoint_position/global", 10);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:4,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/devel/include/mavros_msgs/GlobalPositionTarget.h:160:69: note: ‘mavros_msgs::GlobalPositionTarget’ declared here
+  160 | typedef ::mavros_msgs::GlobalPositionTarget_<std::allocator<void> > GlobalPositionTarget;
+      |                                                                     ^~~~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:270:115: error: no matching function for call to ‘ros::NodeHandle::advertise<<expression error> >(const char [32], int)’
+  270 |       curr_gps_pub_1 = gnc_node.advertise<sensor_msgs::GlobalPositionTarget>("mavros/setpoint_position/global", 10);
+      |                                                                                                                   ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:10,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)’
+  249 |     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:270:115: error: template argument 1 is invalid
+  270 |       curr_gps_pub_1 = gnc_node.advertise<sensor_msgs::GlobalPositionTarget>("mavros/setpoint_position/global", 10);
+      |                                                                                                                   ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:10,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)’
+  315 |   Publisher advertise(const std::string& topic, uint32_t queue_size,
+      |             ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note:   template argument deduction/substitution failed:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:270:115: error: template argument 1 is invalid
+  270 |       curr_gps_pub_1 = gnc_node.advertise<sensor_msgs::GlobalPositionTarget>("mavros/setpoint_position/global", 10);
+      |                                                                                                                   ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,117 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:550:36: error: variable or field ‘reach_goalVel’ declared void
+  550 |  void reach_goalVel(geometry_msgs::TwistStamped target_global_velocity) {
+      |                                    ^~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:550:36: error: ‘TwistStamped’ is not a member of ‘geometry_msgs’; did you mean ‘PoseStamped’?
+  550 |  void reach_goalVel(geometry_msgs::TwistStamped target_global_velocity) {
+      |                                    ^~~~~~~~~~~~
+      |                                    PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘int init_publisher_subscriber(ros::NodeHandle)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:3: error: ‘goal_vel_pub’ was not declared in this scope; did you mean ‘goal_pos_pub’?
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |   ^~~~~~~~~~~~
+      |   goal_pos_pub
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:55: error: ‘TwistStamped’ is not a member of ‘geometry_msgs’; did you mean ‘PoseStamped’?
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |                                                       ^~~~~~~~~~~~
+      |                                                       PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:55: error: ‘TwistStamped’ is not a member of ‘geometry_msgs’; did you mean ‘PoseStamped’?
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |                                                       ^~~~~~~~~~~~
+      |                                                       PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:133: error: no matching function for call to ‘ros::NodeHandle::advertise<<expression error> >(const char*, int)’
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |                                                                                                                                     ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)’
+  249 |     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:249:15: note:   template argument deduction/substitution failed:
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:133: error: template argument 1 is invalid
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |                                                                                                                                     ^
+In file included from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note: candidate: ‘template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)’
+  315 |   Publisher advertise(const std::string& topic, uint32_t queue_size,
+      |             ^~~~~~~~~
+/opt/ros/noetic/include/ros/node_handle.h:315:13: note:   template argument deduction/substitution failed:
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:578:133: error: template argument 1 is invalid
+  578 |   goal_vel_pub = controlnode.advertise<geometry_msgs::TwistStamped>((ros_namespace +"/mavros/setpoint_attitude/cmd_vel").c_str(), 10);
+      |                                                                                                                                     ^
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:11,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:218:5: note: in expansion of macro ‘ROS_INFO’
+  218 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:222:5: note: in expansion of macro ‘ROS_INFO’
+  222 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: At global scope:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:291:47: error: ‘TwistStamped’ in namespace ‘geometry_msgs’ does not name a type; did you mean ‘PoseStamped’?
+  291 | void drone1_gpsVelSub_cb(const geometry_msgs::TwistStamped::ConstPtr& msg){
+      |                                               ^~~~~~~~~~~~
+      |                                               PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:291:69: error: expected unqualified-id before ‘&’ token
+  291 | void drone1_gpsVelSub_cb(const geometry_msgs::TwistStamped::ConstPtr& msg){
+      |                                                                     ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:291:69: error: expected ‘)’ before ‘&’ token
+  291 | void drone1_gpsVelSub_cb(const geometry_msgs::TwistStamped::ConstPtr& msg){
+      |                         ~                                           ^
+      |                                                                     )
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:291:71: error: expected initializer before ‘msg’
+  291 | void drone1_gpsVelSub_cb(const geometry_msgs::TwistStamped::ConstPtr& msg){
+      |                                                                       ^~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:350:57: error: ‘TwistStamped’ is not a member of ‘geometry_msgs’; did you mean ‘PoseStamped’?
+  350 |   drone1_gpsVel_sub = gnc_node.subscribe<geometry_msgs::TwistStamped>("/drone1/mavros/global_position/raw/gps_vel", 10, drone1_gpsVelSub_cb);
+      |                                                         ^~~~~~~~~~~~
+      |                                                         PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:350:57: error: ‘TwistStamped’ is not a member of ‘geometry_msgs’; did you mean ‘PoseStamped’?
+  350 |   drone1_gpsVel_sub = gnc_node.subscribe<geometry_msgs::TwistStamped>("/drone1/mavros/global_position/raw/gps_vel", 10, drone1_gpsVelSub_cb);
+      |                                                         ^~~~~~~~~~~~
+      |                                                         PoseStamped
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:350:121: error: ‘drone1_gpsVelSub_cb’ was not declared in this scope; did you mean ‘drone1_gpsSub_cb’?
+  350 |   drone1_gpsVel_sub = gnc_node.subscribe<geometry_msgs::TwistStamped>("/drone1/mavros/global_position/raw/gps_vel", 10, drone1_gpsVelSub_cb);
+      |                                                                                                                         ^~~~~~~~~~~~~~~~~~~
+      |                                                                                                                         drone1_gpsSub_cb
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

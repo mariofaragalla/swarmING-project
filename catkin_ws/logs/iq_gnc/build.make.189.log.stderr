@@ -1,0 +1,16 @@
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub3.cpp', needed by 'CMakeFiles/sub3.dir/src/sub3.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/sub3.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub2.cpp', needed by 'CMakeFiles/sub2.dir/src/sub2.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/sub2.dir/all] Error 2
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:23:1: error: ‘geometry_msgs’ does not name a type
+   23 | geometry_msgs/PoseWithCovarianceStamped drone1_globalPos_g;
+      | ^~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_globalPos_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:106:2: error: ‘drone1_globalPos_g’ was not declared in this scope; did you mean ‘drone1_globalPos_cb’?
+  106 |  drone1_globalPos_g = *msg;
+      |  ^~~~~~~~~~~~~~~~~~
+      |  drone1_globalPos_cb
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1949: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

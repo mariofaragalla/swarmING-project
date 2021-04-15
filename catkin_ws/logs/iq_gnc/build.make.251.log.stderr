@@ -1,0 +1,27 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:179:29: error: ‘sensor_msgs’ does not name a type
+  179 | void drone1_gpsSub_cb(const sensor_msgs::NavSatFix::ConstPtr& msg){
+      |                             ^~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:179:51: error: expected unqualified-id before ‘::’ token
+  179 | void drone1_gpsSub_cb(const sensor_msgs::NavSatFix::ConstPtr& msg){
+      |                                                   ^~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:179:51: error: expected ‘)’ before ‘::’ token
+  179 | void drone1_gpsSub_cb(const sensor_msgs::NavSatFix::ConstPtr& msg){
+      |                      ~                            ^~
+      |                                                   )
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:179:51: error: expected initializer before ‘::’ token
+  179 | void drone1_gpsSub_cb(const sensor_msgs::NavSatFix::ConstPtr& msg){
+      |                                                   ^~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘int main(int, char**)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:249:40: error: ‘sensor_msgs’ was not declared in this scope
+  249 |    drone1_gps_sub = gnc_node.subscribe<sensor_msgs::NavSatFix>("/drone1//mavros/global_position/global", 10, drone1_gpsSub_cb);
+      |                                        ^~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:249:30: error: parse error in template argument list
+  249 |    drone1_gps_sub = gnc_node.subscribe<sensor_msgs::NavSatFix>("/drone1//mavros/global_position/global", 10, drone1_gpsSub_cb);
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:249:110: error: ‘drone1_gpsSub_cb’ was not declared in this scope; did you mean ‘drone1_gps_sub’?
+  249 |    drone1_gps_sub = gnc_node.subscribe<sensor_msgs::NavSatFix>("/drone1//mavros/global_position/global", 10, drone1_gpsSub_cb);
+      |                                                                                                              ^~~~~~~~~~~~~~~~
+      |                                                                                                              drone1_gps_sub
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1891: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

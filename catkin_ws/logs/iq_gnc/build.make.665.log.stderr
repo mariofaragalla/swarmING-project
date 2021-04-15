@@ -1,0 +1,13 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input_PID(geometry_msgs::Vector3Stamped*, float, int)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:764:2: error: ‘er_integral_x’ was not declared in this scope; did you mean ‘er_integral’?
+  764 |  er_integral_x = er_integral_x + force[k].vector.x;
+      |  ^~~~~~~~~~~~~
+      |  er_integral
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:765:2: error: ‘er_integral_y’ was not declared in this scope; did you mean ‘er_integral’?
+  765 |  er_integral_y = er_integral_y + force[k].vector.y;
+      |  ^~~~~~~~~~~~~
+      |  er_integral
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

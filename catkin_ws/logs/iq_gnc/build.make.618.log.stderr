@@ -1,0 +1,46 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::Vector3Stamped Fext(geometry_msgs::PoseStamped, geometry_msgs::TwistStamped*, int)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:645:5: error: ‘i’ was not declared in this scope
+  645 |  if(i == 0){
+      |     ^
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:648:162: error: ‘deltaT’ was not declared in this scope; did you mean ‘deltaX’?
+  648 |  float Fextx = (K_d * deltaX.pose.position.y) + (D_d * deltaX_dot[k].twist.linear.x) + (M_d * (deltaX_dot[k].twist.linear.x - deltaX_dot[prev].twist.linear.x) / deltaT);
+      |                                                                                                                                                                  ^~~~~~
+      |                                                                                                                                                                  deltaX
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:652:37: error: request for member ‘header’ in ‘deltaX_dot’, which is of pointer type ‘geometry_msgs::TwistStamped*’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >*’} (maybe you meant to use ‘->’ ?)
+  652 |  Fext_vec.header.stamp = deltaX_dot.header.stamp;
+      |                                     ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped vel_control_input(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:724:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  724 | }
+      | ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsVelSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:316:74: error: incompatible types in assignment of ‘geometry_msgs::TwistStamped’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >’} to ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’}
+  316 |   velError_tw = difference_bet_2_twists(drone1_gps_vel_g , curr_gps_vel_g);
+      |                                                                          ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:320:38: error: request for member ‘header’ in ‘velError_tw’, which is of non-class type ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’}
+  320 |   my_time[sampleCount] = velError_tw.header.stamp.sec + 1/(pow(10,int(log10(velError_tw.header.stamp.nsec))+1)/velError_tw.header.stamp.nsec);
+      |                                      ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:320:89: error: request for member ‘header’ in ‘velError_tw’, which is of non-class type ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’}
+  320 |   my_time[sampleCount] = velError_tw.header.stamp.sec + 1/(pow(10,int(log10(velError_tw.header.stamp.nsec))+1)/velError_tw.header.stamp.nsec);
+      |                                                                                         ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:320:124: error: request for member ‘header’ in ‘velError_tw’, which is of non-class type ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’}
+  320 |   my_time[sampleCount] = velError_tw.header.stamp.sec + 1/(pow(10,int(log10(velError_tw.header.stamp.nsec))+1)/velError_tw.header.stamp.nsec);
+      |                                                                                                                            ^~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:323:30: error: no match for ‘operator=’ (operand types are ‘geometry_msgs::TwistStamped’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >’} and ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’})
+  323 |   velError_tw[sampleCount] = velError_tw;
+      |                              ^~~~~~~~~~~
+In file included from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:8,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/opt/ros/noetic/include/geometry_msgs/TwistStamped.h:24:8: note: candidate: ‘geometry_msgs::TwistStamped_<std::allocator<void> >& geometry_msgs::TwistStamped_<std::allocator<void> >::operator=(const geometry_msgs::TwistStamped_<std::allocator<void> >&)’
+   24 | struct TwistStamped_
+      |        ^~~~~~~~~~~~~
+/opt/ros/noetic/include/geometry_msgs/TwistStamped.h:24:8: note:   no known conversion for argument 1 from ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’} to ‘const geometry_msgs::TwistStamped_<std::allocator<void> >&’
+/opt/ros/noetic/include/geometry_msgs/TwistStamped.h:24:8: note: candidate: ‘geometry_msgs::TwistStamped_<std::allocator<void> >& geometry_msgs::TwistStamped_<std::allocator<void> >::operator=(geometry_msgs::TwistStamped_<std::allocator<void> >&&)’
+/opt/ros/noetic/include/geometry_msgs/TwistStamped.h:24:8: note:   no known conversion for argument 1 from ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’} to ‘geometry_msgs::TwistStamped_<std::allocator<void> >&&’
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:360:74: error: incompatible types in assignment of ‘geometry_msgs::TwistStamped’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> >’} to ‘geometry_msgs::TwistStamped [2]’ {aka ‘geometry_msgs::TwistStamped_<std::allocator<void> > [2]’}
+  360 |   velError_tw = difference_bet_2_twists(drone1_gps_vel_g , curr_gps_vel_g);
+      |                                                                          ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

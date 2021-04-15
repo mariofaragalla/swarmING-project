@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/mario/catkin_ws/src/iq_gnc/src/sub.cpp', needed by 'CMakeFiles/sub.dir/src/sub.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:433: CMakeFiles/sub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

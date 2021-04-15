@@ -1,0 +1,64 @@
+In file included from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp: In function ‘geometry_msgs::TwistStamped acc_to_vel(geometry_msgs::Vector3Stamped*, float)’:
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:655:52: error: expression cannot be used as a function
+  655 |  float Vx = 0.5(Fext[0].vector.x + Fext[1].vector.x) * deltaT;
+      |                                                    ^
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:656:52: error: expression cannot be used as a function
+  656 |  float Vy = 0.5(Fext[0].vector.y + Fext[1].vector.y) * deltaT;
+      |                                                    ^
+/home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:657:52: error: expression cannot be used as a function
+  657 |  float Vz = 0.5(Fext[0].vector.z + Fext[1].vector.z) * deltaT;
+      |                                                    ^
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/mario/catkin_ws/src/iq_gnc/include/gnc_functions.hpp:16,
+                 from /home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:3:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsSub_cb(const ConstPtr&)’:
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:222:5: note: in expansion of macro ‘ROS_INFO’
+  222 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+/opt/ros/noetic/include/ros/console.h:351:176: warning: format not a string literal and no format arguments [-Wformat-security]
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+      |                                                                                                                                                                                ^
+/opt/ros/noetic/include/ros/console.h:354:5: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER’
+  354 |     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(NULL, __VA_ARGS__)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:390:7: note: in expansion of macro ‘ROSCONSOLE_PRINT_AT_LOCATION’
+  390 |       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:226:5: note: in expansion of macro ‘ROS_INFO’
+  226 |     ROS_INFO((ros_namespace_l).c_str());
+      |     ^~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp: In function ‘void drone1_gpsVelSub_cb(const ConstPtr&)’:
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:296:19: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+  296 |   time[sampleCount] = ros::Time::now();
+      |                   ^
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:296:21: error: assignment of read-only location ‘*(time + ((sizetype)sampleCount))’
+  296 |   time[sampleCount] = ros::Time::now();
+      |   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:302:43: error: conversion from ‘uint64_t’ {aka ‘long unsigned int’} to non-scalar type ‘ros::Time’ requested
+  302 |   ros::Time time = ros::Time::now().toNSec();
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

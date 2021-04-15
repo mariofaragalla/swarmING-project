@@ -1,0 +1,6 @@
+/home/mario/catkin_ws/src/iq_gnc/src/follower_sub.cpp:341:1: error: expected declaration before ‘}’ token
+  341 | }
+      | ^
+make[2]: *** [CMakeFiles/follower_sub.dir/build.make:63: CMakeFiles/follower_sub.dir/src/follower_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1804: CMakeFiles/follower_sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
