@@ -2,5 +2,13 @@
 	ignore = untracked
 [submodule "https://github.com/mariofaragalla/swarmING-project/tree/main/catkin_ws/src"]
 	ignore = untracked
+[submodule "https://github.com/mariofaragalla/swarmING-project/tree/main/catkin_ws/src/iq_gnc"]
+	ignore = untracked
+[submodule "https://github.com/mariofaragalla/swarmING-project/tree/main/catkin_ws/src/iq_sim"]
+	ignore = untracked
+[submodule "https://github.com/mariofaragalla/swarmING-project/tree/main/catkin_ws/src/mavlink"]
+	ignore = untracked
+[submodule "https://github.com/mariofaragalla/swarmING-project/tree/main/catkin_ws/src/mavros"]
+	ignore = untracked
 [submodule]
 	swarmING = project/catkin_ws/src.ignore
