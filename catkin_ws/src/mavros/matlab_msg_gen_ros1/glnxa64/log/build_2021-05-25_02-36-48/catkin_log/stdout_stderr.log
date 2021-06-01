@@ -1,0 +1,447 @@
+ROS_DISTRO was set to 'noetic' before. Please make sure that the environment does not mix paths from different distributions.
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/lib/ccache/cc
+-- Check for working C compiler: /usr/lib/ccache/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++
+-- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2020b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2020b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 (found suitable version "2.7.18", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Found PY_em: /home/mario/.matlab/R2020b/ros1/glnxa64/venv/lib/python2.7/site-packages/em.pyc  
+-- Using empy: /home/mario/.matlab/R2020b/ros1/glnxa64/venv/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - mavros_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'mavros_msgs'
+-- ==> add_subdirectory(mavros_msgs)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- mavros_msgs: 55 messages, 36 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build
+[1/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/LandingTarget.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Pose
+[2/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/WaypointList.msg mavros_msgs/Waypoint
+[3/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HilSensor.msg std_msgs/Header:geometry_msgs/Vector3
+[4/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/StreamRate.srv
+[5/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/MountConfigure.srv std_msgs/Header
+[6/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileClose.srv
+[7/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/MessageInterval.srv
+[8/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/CommandCode.msg
+[9/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ESCInfoItem.msg std_msgs/Header
+[10/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ADSBVehicle.msg std_msgs/Header
+[11/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/GlobalPositionTarget.msg std_msgs/Header:geometry_msgs/Vector3
+[12/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/RCIn.msg std_msgs/Header
+[13/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileOpen.srv
+[14/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/ParamSet.srv mavros_msgs/ParamValue
+[15/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HilActuatorControls.msg std_msgs/Header
+[16/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/VFR_HUD.msg std_msgs/Header
+[17/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Altitude.msg std_msgs/Header
+[18/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HilControls.msg std_msgs/Header
+[19/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/RTKBaseline.msg std_msgs/Header
+[20/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/RTCM.msg std_msgs/Header
+[21/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileRead.srv
+[22/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandInt.srv
+[23/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/ParamPull.srv
+[24/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/SetMavFrame.srv
+[25/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HomePosition.msg geographic_msgs/GeoPoint:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3:geometry_msgs/Point
+[26/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/ParamPush.srv
+[27/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandTriggerInterval.srv
+[28/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/CompanionProcessStatus.msg std_msgs/Header
+[29/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileWrite.srv
+[30/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/PlayTuneV2.msg
+[31/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ParamValue.msg
+[32/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/AttitudeTarget.msg std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3
+[33/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Thrust.msg std_msgs/Header
+[34/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/SetMode.srv
+[35/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileRemoveDir.srv
+[36/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandHome.srv
+[37/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ESCStatus.msg std_msgs/Header:mavros_msgs/ESCStatusItem
+[38/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/LogRequestData.srv
+[39/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/LogRequestList.srv
+[40/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/TimesyncStatus.msg std_msgs/Header
+[41/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ESCStatusItem.msg std_msgs/Header
+[42/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/WaypointClear.srv
+[43/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Param.msg std_msgs/Header:mavros_msgs/ParamValue
+[44/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/OnboardComputerStatus.msg std_msgs/Header
+[45/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileRename.srv
+[46/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ActuatorControl.msg std_msgs/Header
+[47/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HilStateQuaternion.msg geographic_msgs/GeoPoint:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Vector3
+[48/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/FileEntry.msg
+[49/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/State.msg std_msgs/Header
+[50/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandVtolTransition.srv std_msgs/Header
+[51/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandLong.srv
+[52/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/CamIMUStamp.msg
+[53/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/WheelOdomStamped.msg std_msgs/Header
+[54/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/HilGPS.msg geographic_msgs/GeoPoint:std_msgs/Header
+[55/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/OpticalFlowRad.msg std_msgs/Header
+[56/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileChecksum.srv
+[57/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/VehicleInfo.msg std_msgs/Header
+[58/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/WaypointSetCurrent.srv
+[59/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/LogData.msg std_msgs/Header
+[60/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileList.srv mavros_msgs/FileEntry
+[61/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/PositionTarget.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/Vector3
+[62/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileMakeDir.srv
+[63/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandTOL.srv
+[64/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ESCInfo.msg std_msgs/Header:mavros_msgs/ESCInfoItem
+[65/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/WaypointReached.msg std_msgs/Header
+[66/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Trajectory.msg geometry_msgs/Point:std_msgs/Header:geometry_msgs/Vector3:mavros_msgs/PositionTarget
+[67/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/OverrideRCIn.msg
+[68/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/RCOut.msg std_msgs/Header
+[69/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/LogEntry.msg std_msgs/Header
+[70/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/VehicleInfoGet.srv mavros_msgs/VehicleInfo:std_msgs/Header
+[71/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/LogRequestEnd.srv
+[72/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/MountControl.msg std_msgs/Header
+[73/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/ParamGet.srv mavros_msgs/ParamValue
+[74/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/EstimatorStatus.msg std_msgs/Header
+[75/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Waypoint.msg
+[76/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/WaypointPush.srv mavros_msgs/Waypoint
+[77/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Vibration.msg std_msgs/Header:geometry_msgs/Vector3
+[78/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ExtendedState.msg std_msgs/Header
+[79/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandTriggerControl.srv
+[80/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/WaypointPull.srv
+[81/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/ManualControl.msg std_msgs/Header
+[82/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/RadioStatus.msg std_msgs/Header
+[83/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/DebugValue.msg std_msgs/Header
+[84/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/GPSRAW.msg std_msgs/Header
+[85/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileTruncate.srv
+[86/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/Mavlink.msg std_msgs/Header
+[87/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/StatusText.msg std_msgs/Header
+[88/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/CommandBool.srv
+[89/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/GPSRTK.msg std_msgs/Header
+[90/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/msg/BatteryStatus.msg std_msgs/Header
+[91/802] cd "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/mavros_msgs" && "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh" /home/mario/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py mavros_msgs /home/mario/swarmING\ project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/mavros_msgs/srv/FileRemove.srv
+[92/802] Generating Python from MSG mavros_msgs/HilActuatorControls
+[93/802] Generating Python from MSG mavros_msgs/LogData
+[94/802] Generating Python from MSG mavros_msgs/AttitudeTarget
+[95/802] Generating Python from MSG mavros_msgs/ESCInfoItem
+[96/802] Generating Python from MSG mavros_msgs/GPSRAW
+[97/802] Generating Python from MSG mavros_msgs/ManualControl
+[98/802] Generating Python from MSG mavros_msgs/RTKBaseline
+[99/802] Generating Python from MSG mavros_msgs/RadioStatus
+[100/802] Generating Python from MSG mavros_msgs/WaypointReached
+[101/802] Generating Python from MSG mavros_msgs/Waypoint
+[102/802] Generating Python from MSG mavros_msgs/TimesyncStatus
+[103/802] Generating Python from MSG mavros_msgs/HilStateQuaternion
+[104/802] Generating C++ code from mavros_msgs/BatteryStatus.msg
+[105/802] Generating Python code from SRV mavros_msgs/MessageInterval
+[106/802] Generating Python from MSG mavros_msgs/WheelOdomStamped
+[107/802] Generating Python from MSG mavros_msgs/RTCM
+[108/802] Generating Python from MSG mavros_msgs/DebugValue
+[109/802] Generating Python from MSG mavros_msgs/ActuatorControl
+[110/802] Generating Python from MSG mavros_msgs/Altitude
+[111/802] Generating Python from MSG mavros_msgs/GPSRTK
+[112/802] Generating Python from MSG mavros_msgs/Trajectory
+[113/802] Generating Python from MSG mavros_msgs/OverrideRCIn
+[114/802] Generating Python from MSG mavros_msgs/GlobalPositionTarget
+[115/802] Generating Python from MSG mavros_msgs/HilSensor
+[116/802] Generating Python from MSG mavros_msgs/OnboardComputerStatus
+[117/802] Generating Python from MSG mavros_msgs/WaypointList
+[118/802] Generating Python from MSG mavros_msgs/CompanionProcessStatus
+[119/802] Generating Python from MSG mavros_msgs/RCIn
+[120/802] Generating Python from MSG mavros_msgs/State
+[121/802] Generating Python from MSG mavros_msgs/LogEntry
+[122/802] Generating Python from MSG mavros_msgs/ESCInfo
+[123/802] Generating Python from MSG mavros_msgs/EstimatorStatus
+[124/802] Generating Python from MSG mavros_msgs/Param
+[125/802] Generating Python from MSG mavros_msgs/LandingTarget
+[126/802] Generating Python from MSG mavros_msgs/ParamValue
+[127/802] Generating Python from MSG mavros_msgs/CommandCode
+[128/802] Generating C++ code from mavros_msgs/WheelOdomStamped.msg
+[129/802] Generating Python from MSG mavros_msgs/Thrust
+[130/802] Generating Python from MSG mavros_msgs/MountControl
+[131/802] Generating Python from MSG mavros_msgs/ExtendedState
+[132/802] Generating Python from MSG mavros_msgs/HomePosition
+[133/802] Generating Python from MSG mavros_msgs/FileEntry
+[134/802] Generating Python from MSG mavros_msgs/Mavlink
+[135/802] Generating Python from MSG mavros_msgs/VFR_HUD
+[136/802] Generating Python code from SRV mavros_msgs/CommandVtolTransition
+[137/802] Generating Python from MSG mavros_msgs/BatteryStatus
+[138/802] Generating Python from MSG mavros_msgs/RCOut
+[139/802] Generating Python from MSG mavros_msgs/ADSBVehicle
+[140/802] Generating Python from MSG mavros_msgs/ESCStatus
+[141/802] Generating Python from MSG mavros_msgs/HilControls
+[142/802] Generating Python from MSG mavros_msgs/PlayTuneV2
+[143/802] Generating Python from MSG mavros_msgs/CamIMUStamp
+[144/802] Generating Python from MSG mavros_msgs/PositionTarget
+[145/802] Generating Python from MSG mavros_msgs/HilGPS
+[146/802] Generating Python from MSG mavros_msgs/Vibration
+[147/802] Generating Python from MSG mavros_msgs/StatusText
+[148/802] Generating Python from MSG mavros_msgs/ESCStatusItem
+[149/802] Generating Python code from SRV mavros_msgs/FileList
+[150/802] Generating Python code from SRV mavros_msgs/FileMakeDir
+[151/802] Generating Python from MSG mavros_msgs/VehicleInfo
+[152/802] Generating Python from MSG mavros_msgs/OpticalFlowRad
+[153/802] Generating Python code from SRV mavros_msgs/FileRead
+[154/802] Generating Python code from SRV mavros_msgs/CommandTriggerControl
+[155/802] Generating Python code from SRV mavros_msgs/ParamSet
+[156/802] Generating Python code from SRV mavros_msgs/CommandBool
+[157/802] Generating Python code from SRV mavros_msgs/FileOpen
+[158/802] Generating Python code from SRV mavros_msgs/WaypointClear
+[159/802] Generating Python code from SRV mavros_msgs/FileChecksum
+[160/802] Generating Python code from SRV mavros_msgs/CommandTOL
+[161/802] Generating C++ code from mavros_msgs/CommandCode.msg
+[162/802] Generating Python code from SRV mavros_msgs/FileTruncate
+[163/802] Generating Python code from SRV mavros_msgs/LogRequestEnd
+[164/802] Generating Python code from SRV mavros_msgs/ParamPull
+[165/802] Generating Python code from SRV mavros_msgs/FileClose
+[166/802] Generating Python code from SRV mavros_msgs/VehicleInfoGet
+[167/802] Generating Python code from SRV mavros_msgs/LogRequestData
+[168/802] Generating Python code from SRV mavros_msgs/ParamPush
+[169/802] Generating Python code from SRV mavros_msgs/CommandLong
+[170/802] Generating Python code from SRV mavros_msgs/CommandTriggerInterval
+[171/802] Generating Python code from SRV mavros_msgs/FileWrite
+[172/802] Generating Python code from SRV mavros_msgs/FileRemoveDir
+[173/802] Generating Python code from SRV mavros_msgs/SetMavFrame
+[174/802] Generating Python code from SRV mavros_msgs/FileRemove
+[175/802] Generating Python code from SRV mavros_msgs/LogRequestList
+[176/802] Generating Python code from SRV mavros_msgs/CommandInt
+[177/802] Generating Python code from SRV mavros_msgs/CommandHome
+[178/802] Generating Python code from SRV mavros_msgs/ParamGet
+[179/802] Generating Python code from SRV mavros_msgs/StreamRate
+[180/802] Generating Python code from SRV mavros_msgs/FileRename
+[181/802] Generating Python code from SRV mavros_msgs/WaypointPush
+[182/802] Generating Python code from SRV mavros_msgs/SetMode
+[183/802] Generating Python code from SRV mavros_msgs/MountConfigure
+[184/802] Generating Python code from SRV mavros_msgs/WaypointSetCurrent
+[185/802] Generating Python code from SRV mavros_msgs/WaypointPull
+[186/802] Generating C++ code from mavros_msgs/AttitudeTarget.msg
+[187/802] Generating C++ code from mavros_msgs/WaypointReached.msg
+[188/802] Generating Python srv __init__.py for mavros_msgs
+[189/802] Generating C++ code from mavros_msgs/Waypoint.msg
+[190/802] Generating C++ code from mavros_msgs/RTKBaseline.msg
+[191/802] Generating C++ code from mavros_msgs/Altitude.msg
+[192/802] Generating Python msg __init__.py for mavros_msgs
+[193/802] Generating C++ code from mavros_msgs/RadioStatus.msg
+[194/802] Generating C++ code from mavros_msgs/HilStateQuaternion.msg
+[195/802] Generating C++ code from mavros_msgs/LogData.msg
+[196/802] Generating C++ code from mavros_msgs/ESCInfoItem.msg
+[197/802] Generating C++ code from mavros_msgs/Mavlink.msg
+[198/802] Generating C++ code from mavros_msgs/OnboardComputerStatus.msg
+[199/802] Generating C++ code from mavros_msgs/WaypointList.msg
+[200/802] Generating C++ code from mavros_msgs/HilActuatorControls.msg
+[201/802] Generating C++ code from mavros_msgs/RTCM.msg
+[202/802] Generating C++ code from mavros_msgs/DebugValue.msg
+[203/802] Generating C++ code from mavros_msgs/GPSRTK.msg
+[204/802] Generating C++ code from mavros_msgs/Trajectory.msg
+[205/802] Generating C++ code from mavros_msgs/OverrideRCIn.msg
+[206/802] Generating C++ code from mavros_msgs/GlobalPositionTarget.msg
+[207/802] Generating C++ code from mavros_msgs/HilSensor.msg
+[208/802] Generating C++ code from mavros_msgs/State.msg
+[209/802] Generating C++ code from mavros_msgs/CompanionProcessStatus.msg
+[210/802] Generating C++ code from mavros_msgs/GPSRAW.msg
+[211/802] Generating C++ code from mavros_msgs/RCIn.msg
+[212/802] Generating C++ code from mavros_msgs/TimesyncStatus.msg
+[213/802] Generating C++ code from mavros_msgs/Param.msg
+[214/802] Generating C++ code from mavros_msgs/LogEntry.msg
+[215/802] Generating C++ code from mavros_msgs/ESCInfo.msg
+[216/802] Generating C++ code from mavros_msgs/LandingTarget.msg
+[217/802] Generating C++ code from mavros_msgs/ParamValue.msg
+[218/802] Generating C++ code from mavros_msgs/EstimatorStatus.msg
+[219/802] Generating C++ code from mavros_msgs/ManualControl.msg
+[220/802] Generating C++ code from mavros_msgs/ActuatorControl.msg
+[221/802] Generating C++ code from mavros_msgs/HomePosition.msg
+[222/802] Generating C++ code from mavros_msgs/RCOut.msg
+[223/802] Generating C++ code from mavros_msgs/ADSBVehicle.msg
+[224/802] Generating C++ code from mavros_msgs/ESCStatus.msg
+[225/802] Generating C++ code from mavros_msgs/VFR_HUD.msg
+[226/802] Generating C++ code from mavros_msgs/HilControls.msg
+[227/802] Generating C++ code from mavros_msgs/ExtendedState.msg
+[228/802] Generating C++ code from mavros_msgs/PlayTuneV2.msg
+[229/802] Generating C++ code from mavros_msgs/PositionTarget.msg
+[230/802] Generating C++ code from mavros_msgs/HilGPS.msg
+[231/802] Generating C++ code from mavros_msgs/Thrust.msg
+[232/802] Generating C++ code from mavros_msgs/StatusText.msg
+[233/802] Generating C++ code from mavros_msgs/MountControl.msg
+[234/802] Generating C++ code from mavros_msgs/ESCStatusItem.msg
+[235/802] Generating C++ code from mavros_msgs/CamIMUStamp.msg
+[236/802] Generating C++ code from mavros_msgs/FileEntry.msg
+[237/802] Generating C++ code from mavros_msgs/Vibration.msg
+[238/802] Generating C++ code from mavros_msgs/VehicleInfo.msg
+[239/802] Generating C++ code from mavros_msgs/OpticalFlowRad.msg
+[240/802] Generating C++ code from mavros_msgs/FileMakeDir.srv
+[241/802] Generating C++ code from mavros_msgs/FileRead.srv
+[242/802] Generating C++ code from mavros_msgs/CommandTriggerControl.srv
+[243/802] Generating C++ code from mavros_msgs/ParamSet.srv
+[244/802] Generating C++ code from mavros_msgs/CommandBool.srv
+[245/802] Generating C++ code from mavros_msgs/FileOpen.srv
+[246/802] Generating C++ code from mavros_msgs/WaypointClear.srv
+[247/802] Generating C++ code from mavros_msgs/FileChecksum.srv
+[248/802] Generating C++ code from mavros_msgs/FileList.srv
+[249/802] Generating C++ code from mavros_msgs/FileTruncate.srv
+[250/802] Generating C++ code from mavros_msgs/MessageInterval.srv
+[251/802] Generating C++ code from mavros_msgs/ParamPull.srv
+[252/802] Generating C++ code from mavros_msgs/CommandTOL.srv
+[253/802] Generating C++ code from mavros_msgs/VehicleInfoGet.srv
+[254/802] Generating C++ code from mavros_msgs/LogRequestEnd.srv
+[255/802] Generating C++ code from mavros_msgs/FileClose.srv
+[256/802] Generating C++ code from mavros_msgs/CommandVtolTransition.srv
+[257/802] Generating C++ code from mavros_msgs/LogRequestData.srv
+[258/802] Generating C++ code from mavros_msgs/CommandTriggerInterval.srv
+[259/802] Generating C++ code from mavros_msgs/FileWrite.srv
+[260/802] Generating C++ code from mavros_msgs/SetMavFrame.srv
+[261/802] Generating C++ code from mavros_msgs/FileRemoveDir.srv
+[262/802] Generating C++ code from mavros_msgs/LogRequestList.srv
+[263/802] Generating C++ code from mavros_msgs/CommandLong.srv
+[264/802] Generating C++ code from mavros_msgs/CommandInt.srv
+[265/802] Generating C++ code from mavros_msgs/CommandHome.srv
+[266/802] Generating C++ code from mavros_msgs/ParamPush.srv
+[267/802] Generating C++ code from mavros_msgs/FileRemove.srv
+[268/802] Generating C++ code from mavros_msgs/SetMode.srv
+[269/802] Generating C++ code from mavros_msgs/FileRename.srv
+[270/802] Generating C++ code from mavros_msgs/WaypointPush.srv
+[271/802] Generating C++ code from mavros_msgs/WaypointPull.srv
+[272/802] Generating C++ code from mavros_msgs/MountConfigure.srv
+[273/802] Generating C++ code from mavros_msgs/WaypointSetCurrent.srv
+[274/802] Generating C++ code from mavros_msgs/StreamRate.srv
+[275/802] Generating C++ code from mavros_msgs/ParamGet.srv
+[276/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ADSBVehicle_common.cpp.o
+[277/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ADSBVehicle_publisher.cpp.o
+[278/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ADSBVehicle_subscriber.cpp.o
+[279/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ActuatorControl_common.cpp.o
+[280/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ActuatorControl_publisher.cpp.o
+[281/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ActuatorControl_subscriber.cpp.o
+[282/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_Altitude_common.cpp.o
+[283/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_Altitude_publisher.cpp.o
+[284/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_Altitude_subscriber.cpp.o
+[285/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_AttitudeTarget_common.cpp.o
+[286/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_AttitudeTarget_publisher.cpp.o
+[287/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_AttitudeTarget_subscriber.cpp.o
+[288/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_BatteryStatus_common.cpp.o
+[289/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_BatteryStatus_publisher.cpp.o
+[290/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_BatteryStatus_subscriber.cpp.o
+[291/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_CamIMUStamp_common.cpp.o
+[292/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CamIMUStamp_publisher.cpp.o
+[293/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CamIMUStamp_subscriber.cpp.o
+[294/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_CommandCode_common.cpp.o
+[295/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CommandCode_publisher.cpp.o
+[296/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CompanionProcessStatus_subscriber.cpp.o
+[297/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ESCInfo_common.cpp.o
+[298/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CompanionProcessStatus_publisher.cpp.o
+[299/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_DebugValue_common.cpp.o
+[300/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_DebugValue_subscriber.cpp.o
+[301/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_DebugValue_publisher.cpp.o
+[302/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_CompanionProcessStatus_common.cpp.o
+[303/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_CommandCode_subscriber.cpp.o
+[304/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCInfo_publisher.cpp.o
+[305/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCInfo_subscriber.cpp.o
+[306/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ESCInfoItem_common.cpp.o
+[307/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCInfoItem_publisher.cpp.o
+[308/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_OpticalFlowRad_publisher.cpp.o
+[309/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCInfoItem_subscriber.cpp.o
+[310/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ESCStatus_common.cpp.o
+[311/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCStatus_publisher.cpp.o
+[312/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCStatus_subscriber.cpp.o
+[313/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ESCStatusItem_common.cpp.o
+[314/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCStatusItem_publisher.cpp.o
+[315/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ESCStatusItem_subscriber.cpp.o
+[316/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ExtendedState_common.cpp.o
+[317/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_EstimatorStatus_common.cpp.o
+[318/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_FileEntry_publisher.cpp.o
+[319/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_EstimatorStatus_publisher.cpp.o
+[320/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ExtendedState_publisher.cpp.o
+[321/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_FileEntry_common.cpp.o
+[322/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ExtendedState_subscriber.cpp.o
+[323/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_EstimatorStatus_subscriber.cpp.o
+[324/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_FileEntry_subscriber.cpp.o
+[325/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_GPSRAW_common.cpp.o
+[326/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GPSRAW_publisher.cpp.o
+[327/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GPSRAW_subscriber.cpp.o
+[328/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_GPSRTK_common.cpp.o
+[329/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GPSRTK_publisher.cpp.o
+[330/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GPSRTK_subscriber.cpp.o
+[331/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_GlobalPositionTarget_common.cpp.o
+[332/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GlobalPositionTarget_publisher.cpp.o
+[333/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_GlobalPositionTarget_subscriber.cpp.o
+[334/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HilActuatorControls_common.cpp.o
+[335/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilActuatorControls_publisher.cpp.o
+[336/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilActuatorControls_subscriber.cpp.o
+[337/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HilControls_common.cpp.o
+[338/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilControls_publisher.cpp.o
+[339/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilControls_subscriber.cpp.o
+[340/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HilGPS_common.cpp.o
+[341/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilGPS_publisher.cpp.o
+[342/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilGPS_subscriber.cpp.o
+[343/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HilSensor_common.cpp.o
+[344/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilSensor_publisher.cpp.o
+[345/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilSensor_subscriber.cpp.o
+[346/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HilStateQuaternion_common.cpp.o
+[347/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilStateQuaternion_publisher.cpp.o
+[348/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HilStateQuaternion_subscriber.cpp.o
+[349/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_HomePosition_common.cpp.o
+[350/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HomePosition_publisher.cpp.o
+[351/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_HomePosition_subscriber.cpp.o
+[352/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_LandingTarget_common.cpp.o
+[353/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LandingTarget_publisher.cpp.o
+[354/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LandingTarget_subscriber.cpp.o
+[355/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_LogData_common.cpp.o
+[356/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LogData_publisher.cpp.o
+[357/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LogData_subscriber.cpp.o
+[358/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_LogEntry_common.cpp.o
+[359/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LogEntry_publisher.cpp.o
+[360/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_LogEntry_subscriber.cpp.o
+[361/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_ManualControl_common.cpp.o
+[362/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ManualControl_publisher.cpp.o
+[363/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_msg_ManualControl_subscriber.cpp.o
+[364/802] Building CXX object mavros_msgs/CMakeFiles/mavros_msgs_matlab.dir/src/mavros_msgs_Mavlink_common.cpp.o
+Base path: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64
+Source space: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2020b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j8 -l8" in "/home/mario/swarmING project/catkin_ws/src/mavros/matlab_msg_gen_ros1/glnxa64/build"
+####
+Traceback (most recent call last):
+  File "/usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/bin/catkin_make", line 298, in <module>
+    sys.exit(main())
+  File "/usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/bin/catkin_make", line 242, in main
+    run_command(cmd, make_path)
+  File "/usr/local/MATLAB/R2020b/sys/ros1/glnxa64/ros1/lib/python2.7/site-packages/catkin/builder.py", line 239, in run_command
+    proc.wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1099, in wait
+ninja: build stopped: interrupted by user.
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 125, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt

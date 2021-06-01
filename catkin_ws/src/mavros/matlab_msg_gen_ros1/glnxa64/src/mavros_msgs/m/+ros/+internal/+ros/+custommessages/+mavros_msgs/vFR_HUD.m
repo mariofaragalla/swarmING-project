@@ -1,0 +1,31 @@
+function [data, info] = vFR_HUD
+%VFR_HUD gives an empty data for mavros_msgs/VFR_HUD
+% Copyright 2019-2020 The MathWorks, Inc.
+data = struct();
+[data.header, info.header] = ros.internal.ros.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.airspeed, info.airspeed] = ros.internal.ros.messages.ros.default_type('single',1);
+[data.groundspeed, info.groundspeed] = ros.internal.ros.messages.ros.default_type('single',1);
+[data.heading, info.heading] = ros.internal.ros.messages.ros.default_type('int16',1);
+[data.throttle, info.throttle] = ros.internal.ros.messages.ros.default_type('single',1);
+[data.altitude, info.altitude] = ros.internal.ros.messages.ros.default_type('single',1);
+[data.climb, info.climb] = ros.internal.ros.messages.ros.default_type('single',1);
+info.MessageType = 'mavros_msgs/VFR_HUD';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,12);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.seq';
+info.MatPath{3} = 'header.stamp';
+info.MatPath{4} = 'header.stamp.sec';
+info.MatPath{5} = 'header.stamp.nsec';
+info.MatPath{6} = 'header.frame_id';
+info.MatPath{7} = 'airspeed';
+info.MatPath{8} = 'groundspeed';
+info.MatPath{9} = 'heading';
+info.MatPath{10} = 'throttle';
+info.MatPath{11} = 'altitude';
+info.MatPath{12} = 'climb';

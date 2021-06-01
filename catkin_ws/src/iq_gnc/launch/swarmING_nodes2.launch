@@ -1,0 +1,34 @@
+<launch>
+
+	<!-->
+	<group>
+		<node pkg="iq_gnc" type="pub" name="pub1" output="screen" ns="/drone1"> 
+			<param name="namespace" value="/drone1"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+	</group>
+	<-->
+	<group>
+		
+		<node pkg="iq_gnc" type="follower_sub2" name="follower2_sub" output="screen" ns="/drone2">
+			<param name="namespace" value="/drone2"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+		<node pkg="iq_gnc" type="follower_pub2" name="follower2_pub" output="screen" ns="/drone2">
+			<param name="namespace" value="/drone2"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+		<rosparam command= "load" file="$(find iq_gnc)/config/drone2_myparams.yaml"/>
+	</group>
+	<group>	
+		<node pkg="iq_gnc" type="follower_sub2" name="follower3_sub" output="screen" ns="/drone3">
+			<param name="namespace" value="/drone3"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+		<node pkg="iq_gnc" type="follower_pub2" name="follower3_pub" output="screen" ns="/drone3">
+			<param name="namespace" value="/drone3"/>
+			<param name="use_sim_time"  value="true" />
+		</node>
+		<rosparam command= "load" file="$(find iq_gnc)/config/drone3_myparams.yaml"/>
+	</group>
+</launch>

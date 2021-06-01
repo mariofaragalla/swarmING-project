@@ -1,0 +1,37 @@
+function [data, info] = radioStatus
+%RadioStatus gives an empty data for mavros_msgs/RadioStatus
+% Copyright 2019-2020 The MathWorks, Inc.
+data = struct();
+[data.header, info.header] = ros.internal.ros.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.rssi, info.rssi] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.remrssi, info.remrssi] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.txbuf, info.txbuf] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.noise, info.noise] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.remnoise, info.remnoise] = ros.internal.ros.messages.ros.default_type('uint8',1);
+[data.rxerrors, info.rxerrors] = ros.internal.ros.messages.ros.default_type('uint16',1);
+[data.fixed, info.fixed] = ros.internal.ros.messages.ros.default_type('uint16',1);
+[data.rssi_dbm, info.rssi_dbm] = ros.internal.ros.messages.ros.default_type('single',1);
+[data.remrssi_dbm, info.remrssi_dbm] = ros.internal.ros.messages.ros.default_type('single',1);
+info.MessageType = 'mavros_msgs/RadioStatus';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,15);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.seq';
+info.MatPath{3} = 'header.stamp';
+info.MatPath{4} = 'header.stamp.sec';
+info.MatPath{5} = 'header.stamp.nsec';
+info.MatPath{6} = 'header.frame_id';
+info.MatPath{7} = 'rssi';
+info.MatPath{8} = 'remrssi';
+info.MatPath{9} = 'txbuf';
+info.MatPath{10} = 'noise';
+info.MatPath{11} = 'remnoise';
+info.MatPath{12} = 'rxerrors';
+info.MatPath{13} = 'fixed';
+info.MatPath{14} = 'rssi_dbm';
+info.MatPath{15} = 'remrssi_dbm';
