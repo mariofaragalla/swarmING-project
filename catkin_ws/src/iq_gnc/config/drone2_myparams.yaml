@@ -1,0 +1,32 @@
+drone2: 
+  shared_params:
+    alt_flag : false
+    takeoff_flag: false
+    mapOriginSet_flag: false
+    leader_state: 
+      {mode: " ", armed: false}
+    follower_state:
+      {mode: " ", armed: false}
+    mapOrigin: 
+      {latitude: 0.0, longitude: 0.0,  altitude : 0.0}
+    leader_position: 
+      {time: 0.0, delay: 0.0, latitude: 0.0, longitude: 0.0,  altitude : 0.0}
+    leader_velocity:
+      time: 0.0
+      delay: 0.0
+      linear: {x:  0.0, y:  0.0, z:  0.0}
+      angular: {x:  0.0, y:  0.0, z:  0.0}
+    leader_acceleration:
+      linear: {x:  0.0, y:  0.0, z:  0.0}
+    follower_position: 
+      {time: 0.0, Ts: 0.0, latitude: 0.0, longitude: 0.0,  altitude : 0.0}
+    follower_velocity:
+      linear: {x:  0.0, y:  0.0, z:  0.0}
+      angular: {x:  0.0, y:  0.0, z:  0.0}
+    desiredPosition: 
+      {x:  0.0, y:  0.0, z:  0.0}
+    positionError: 
+      {x:  0.0, y:  0.0, z:  0.0}
+    velocityError:
+      linear: {x:  0.0, y:  0.0, z:  0.0}
+      angular: {x:  0.0, y:  0.0, z:  0.0}
