@@ -1,7 +1,5 @@
 # swarmING-project
 
-
-
 https://github.com/mariofaragalla/swarmING-project/assets/55330224/cd1ab16a-84fd-4870-bb69-7951880eda6b
 
 ## The installation guide can be found here:
@@ -52,7 +50,7 @@ with the following git repo:
 https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/ros_intro.md
 https://github.com/Intelligent-Quads/iq_tutorials/tree/master/docs
 
-Steps:
+Steps for testing:
 
 For one drone:
 
@@ -67,8 +65,20 @@ For many drones:
    - In another terminal for drone2 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1`
    - In another terminal for drone3 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2`
 
-
 N.B: Adjust the no. and the position of drones from the multi_drone.world file
+
+Here you can test each drone via ardupilot commands for example: 
+```mode GUIDED
+arm throttle
+take off 3```
+
+## Running swarmING concept:
+
+1. In terminal 1: Run the leader-follower principle: `roslaunch iq_gnc swarmING_nodes.launch`
+2. In terminal 2: Open the multi drone environment in Gazebo: `roslaunch iq_sim multi_drone.launch`
+3. In terminal 3: Communication with Ardupilot and the drones, use the bash file `./multi-ardupilot.sh` in ~/catkin_ws/src/iq_sim/scripts
+	- In the first tab wait for `APM: EKF2 IMU1 is using GPS`.
+	- Then Control the leader drone in the first tab using ardupilot commands. The other drones should follow it accordingly.
 
 Issues & fixes:
 
