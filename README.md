@@ -75,14 +75,10 @@ Here you can test each drone via ardupilot commands for example:
 ## Running swarmING concept:
 
 1. In terminal 1: Run the leader-follower principle: `roslaunch iq_gnc swarmING_nodes.launch`
-2. In terminal 2: Open the multi drone environment in Gazebo: `roslaunch iq_sim multi_drone.launch`
-3. In terminal 3: Communication with Ardupilot and the drones, use the bash file `./multi-ardupilot.sh` in ~/catkin_ws/src/iq_sim/scripts
+2. In terminal 2: Communication with Ardupilot and the drones, use the bash file `./multi-ardupilot.sh` in ~/catkin_ws/src/iq_sim/scripts
+3. In terminal 3: Establish the connection between ROS and Mavproxy using `roslaunch iq_sim multi-apm.launch`
+4. In terminal 4: Open the multi drone environment in Gazebo: `roslaunch iq_sim multi_drone.launch`
+5. From terminal 2 tabs: 
 	- In the first tab wait for `APM: EKF2 IMU1 is using GPS`.
 	- Then Control the leader drone in the first tab using ardupilot commands. The other drones should follow it accordingly.
 
-Issues & fixes:
-
-- catkin build error (catkin_make used prevousily): https://github.com/ethz-asl/maplab/issues/9
-- ros_gazebo not found: sudo apt-get install ros-noetic-gazebo-ros-pkgs 
-- libignition-common3-graphics is missing or different version (3.6): https://ignitionrobotics.org/api/physics/1.2/installation.html
-- don't forget to check the directory: /home/<user-name>/.gazebo for model changes
