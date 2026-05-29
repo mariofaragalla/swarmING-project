@@ -68,9 +68,9 @@ For many drones:
 N.B: Adjust the no. and the position of drones from the multi_drone.world file
 
 Here you can test each drone via ardupilot commands for example: 
-```mode GUIDED
-arm throttle
-take off 3```
+`mode GUIDED`
+`arm throttle`
+`take off 3`
 
 ## Running swarmING concept:
 
