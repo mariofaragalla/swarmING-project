@@ -56,20 +56,20 @@ Steps:
 
 For one drone:
 
-1. in one terminal: 	roslaunch iq_sim runway.launch
-2. in another one:	cp ~/catkin_ws/src/iq_sim/scripts/startsitl.sh ~
-					~/startsitl.sh
+1. in one terminal: 	`roslaunch iq_sim runway.launch`
+2. in another one:	```cp ~/catkin_ws/src/iq_sim/scripts/startsitl.sh ~
+					~/startsitl.sh```
 ##
 For many drones:
-1. in one terminal: 	roslaunch iq_sim multi_drone.launch
-2. In another terminal for drone1 run:	sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I0
-   In another terminal for drone2 run:	sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1
-   In another terminal for drone3 run:	sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2
+1. in one terminal: 	`roslaunch iq_sim multi_drone.launch`
+2. In another terminal for drone1 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I0`
+   In another terminal for drone2 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1`
+   In another terminal for drone3 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2`
 
 
 N.B: Adjust the no. and the position of drones from the multi_drone.world file
 
-Issues:
+Issues & fixes:
 
 - catkin build error (catkin_make used prevousily): https://github.com/ethz-asl/maplab/issues/9
 - ros_gazebo not found: sudo apt-get install ros-noetic-gazebo-ros-pkgs 
