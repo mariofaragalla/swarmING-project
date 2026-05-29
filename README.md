@@ -36,9 +36,9 @@ How to add model to Gazebo:
 1. Go to /home/<username>/.gazebo/models 
 2. Add a new folder "swarmING" 
 3. This folder must contain 3 files:
-	a- model.config -> contains some textual description name, author, email ...etc
-	b- model.sdf -> contains the dynamic description of the model.
-	c- model.dae -> the CAD model for apperance.
+   3.1. model.config -> contains some textual description name, author, email ...etc
+   3.2. model.sdf -> contains the dynamic description of the model.
+   3.3. model.dae -> the CAD model for apperance.
 4. model.sdf must call model.dae.
 
 
@@ -62,9 +62,10 @@ For one drone:
 ##
 For many drones:
 1. in one terminal: 	`roslaunch iq_sim multi_drone.launch`
-2. In another terminal for drone1 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I0`
-   In another terminal for drone2 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1`
-   In another terminal for drone3 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2`
+2. For each drone:
+   - In another terminal for drone1 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I0`
+   - In another terminal for drone2 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1`
+   - In another terminal for drone3 run:	`sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2`
 
 
 N.B: Adjust the no. and the position of drones from the multi_drone.world file
