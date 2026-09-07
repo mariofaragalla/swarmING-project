@@ -7,12 +7,13 @@ https://github.com/mariofaragalla/swarmING-project/assets/55330224/cd1ab16a-84fd
 - https://ardupilot.org/dev/docs/using-gazebo-simulator-with-sitl.html [deprecated]
 - https://ardupilot.org/dev/docs/sitl-with-gazebo.html#sitl-with-gazebo
 
-## After installation we can use the same instructions so that the command 
+## After installation:
+we can use the same instructions so that the command 
 " gazebo --verbose worlds/iris_arducopter_runway.world " run a different quadcopter model.
 
 Steps:
 
-1. Go to /home/<username>/ardupilot_gazebo/models/iris_with_standoffs directory 
+1. Go to /home/\<username\>/ardupilot_gazebo/models/iris_with_standoffs directory 
 2. In the folder meshes put the .dae CAD file of the drone.
 3. Edit the model.sdf file so that it calls the new .dae file instead of the existing one (iris.dae) N.B: search for uri
 
@@ -21,7 +22,7 @@ If you run the command gazebo --verbose worlds/iris_arducopter_runway.world you 
 
 To change the location of the drone on the map:
 
-1. Go to /home/mario/ardupilot/Tools/autotest
+1. Go to /home/\<username\>/ardupilot/Tools/autotest
 2. Open locations.txt on the last line add the name of location then add '=' then the location on maps (latitude,longitude,absolute-altitude,heading)
 	for e.g:  TUHH=53.459955,9.969447,23,0
    , then save the file.
