@@ -32,7 +32,7 @@ To change the location of the drone on the map:
 Extra:
 
 How to add model to Gazebo:
-1. Go to /home/<username>/.gazebo/models 
+1. Go to /home/\<username\>/.gazebo/models 
 2. Add a new folder "swarmING" 
 3. This folder must contain 3 files:
    3.1. model.config -> contains some textual description name, author, email ...etc
